@@ -1,0 +1,113 @@
+.title-passive-examples{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: max-content;
+    background-color: rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    margin-bottom: 300px;
+    padding: 0px 10px 0px 10px;
+    flex-direction: column;
+}
+
+.title-passive-examples h2{
+    font-size: 60px;
+}
+
+.def-villager{
+    font-size: 16px;
+    width: 500px;
+    height: max-content;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.07);
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 20%;
+    transition: 1s;
+    text-align: justify;
+    margin-right: 0px;
+}
+
+.def-villager:hover{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 630px;
+}
+
+.def-villager a{
+    color: rgb(91, 189, 255);
+}
+
+.img-villager img{
+    width: 150px;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.07);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.img-villager img:hover{
+    width: 170px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.img-villager{
+    width: 170px;
+    margin-left: 130px;
+    display: flex;
+}
+
+
+.villagers{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: min-content;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.vid-villager{
+    width: 300px;
+    margin-left: 130px;
+    display: flex;
+}
+
+.vid-villager iframe{
+    background-color: rgba(0, 0, 0, 0.07);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 460px) {
+    .title-passive-examples{
+        font-size: 40px;
+        width: 90%;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .title-passive-examples h2{
+        font-size: 35px;
+    }
+
+    .villagers{
+        flex-direction: column;
+    }
+    
+    .def-villager{
+        margin-bottom: 20px;
+        width: 90%;
+        margin-inline: 5%;
+        box-sizing: border-box;
+    }
+
+    .def-villager h1{
+        font-size: 25px;
+    }
+
+    .img-villager{
+        margin-inline: 5px;
+    }
+}

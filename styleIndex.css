@@ -1,0 +1,491 @@
+* {
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(28, 31, 68, 0.85);
+    position: fixed;
+}
+
+.logo {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.nome {
+    display: flex;
+    padding: 25px;
+    box-sizing: border-box;
+    visibility: hidden;
+    width: 15%;
+}
+
+.nome a {
+    color: white;
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.menu a:hover {
+    color: rgb(61, 112, 124);
+}
+
+footer {
+    background-color: rgb(28, 31, 68);
+    width: 100%;
+    height: max-content;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.abus {
+    width: 700px;
+    text-align: justify;
+}
+
+.abush1 {
+    font-size: 25px;
+    color: white;
+    font-family: arial;
+    padding: 20px 0px 10px 30px;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(61, 112, 124);
+}
+
+.abusp {
+    font-size: 17px;
+    color: white;
+    font-family: arial;
+    padding-left: 30px;
+
+}
+
+.maps {
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+    padding: 30px;
+}
+
+.faco {
+    color: white;
+    font-size: 17px;
+    font-family: arial;
+    padding: 50px;
+}
+
+main {
+    width: 100%;
+}
+
+.warden {
+    background-image: url('fundowarden.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vazio1 {
+    width: 100%;
+    height: 300px;
+}
+
+.marca {
+    color: white;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    font-family: arial;
+    margin-bottom: 300px;
+    background-color: rgba(0, 0, 0, 0.07);
+    width: max-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.open {
+    width: 100%;
+    background-color: rgba(0, 0, 0);
+    color: white;
+    font-family: arial;
+    font-size: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px -15px 15px black;
+}
+
+.entities {
+    background-image: url('entities.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 15px 15px black;
+}
+
+.mobs {
+    color: white;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    font-family: arial;
+    margin-bottom: 300px;
+    background-color: rgba(0, 0, 0, 0.07);
+    width: max-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mobs a {
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.mobs a:hover {
+    color: rgb(61, 112, 124);
+}
+
+.farms {
+    background-image: url('fundovillagers.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 15px 15px black;
+}
+
+.farm {
+    color: white;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    font-family: arial;
+    margin-bottom: 300px;
+    background-color: rgba(0, 0, 0, 0.07);
+    width: max-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.farm a {
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.farm a:hover {
+    color: rgb(61, 112, 124);
+}
+
+.burguer,
+.maps1,
+.maps2,
+.openmenu,
+.vazio2 {
+    display: none;
+}
+
+.tomorrow-thin {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.tomorrow-extralight {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.tomorrow-light {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.tomorrow-regular,
+.menu li,
+.marca,
+.openmenu ul li,
+.open,
+.farm,
+.mobs {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tomorrow-medium {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.tomorrow-semibold {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.tomorrow-bold {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.tomorrow-extrabold {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.tomorrow-black {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.tomorrow-thin-italic {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.tomorrow-extralight-italic {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.tomorrow-light-italic {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.tomorrow-regular-italic {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.tomorrow-medium-italic {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.tomorrow-semibold-italic {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.tomorrow-bold-italic {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.tomorrow-extrabold-italic {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.tomorrow-black-italic {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+@media screen and (max-width: 460px) {
+    body {
+        width: 100%;
+    }
+
+    .menu,
+    .nome,
+    .maps {
+        display: none;
+    }
+
+    .burguer {
+        display: block;
+        color: white;
+        font-size: 70px;
+        display: flex;
+        align-items: center;
+    }
+
+    .marca,
+    .mobs,
+    .farm {
+        font-size: 30px;
+    }
+
+    .warden {
+        background-image: url('fundowarden2.webp');
+    }
+
+    .entities {
+        background-image: url('entities2.webp')
+    }
+
+    .farms {
+        background-image: url('fundovillagersmobile.webp')
+    }
+
+    .open {
+        text-align: center;
+        font-size: 20px;
+        padding: 30px 0px 30px 0px;
+    }
+
+    .open p {
+        width: 90%;
+    }
+
+    footer {
+        height: max-content;
+        display: flex;
+        align-items: center;
+    }
+
+    .abus {
+        width: 90%;
+    }
+
+    .abush1,
+    .abusp {
+        padding-left: 0px;
+    }
+
+    .maps1 {
+        color: white;
+        font-family: arial;
+        font-size: 14px;
+        padding: 30px 30px 30px 0px;
+        display: block;
+    }
+
+    .maps2 {
+        color: white;
+        font-family: arial;
+        font-size: 14px;
+        padding: 0px 0px 20px 0px;
+        display: block;
+    }
+
+    .openmenu {
+        box-sizing: border-box;
+        transform: translateX(100%);
+        transition: 1s ease-out;
+        display: grid;
+        position: fixed;
+        right: 0px;
+        z-index: 1;
+        height: calc(100vh - 120px);
+        background-color: rgb(28, 31, 68, 1);
+        width: 100%;
+
+
+    }
+
+    .openmenu a {
+        text-decoration: none;
+        color: white;
+        transition: 0.5s;
+        padding: 30px;
+    }
+
+    .openmenu ul {
+        right: 0px;
+        list-style: none;
+        padding-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .openmenu ul li {
+        font-size: 30px;
+        box-sizing: border-box;
+    }
+
+    .vazio2 {
+        display: block;
+        visibility: none;
+        height: 120px;
+        width: 100%;
+    }
+
+    .vazio1 {
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .marca {
+        font-size: 28px;
+    }
+
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .marca {
+        font-size: 25px;
+    }
+
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .marca {
+        font-size: 22px;
+    }
+
+    body {
+        width: 100%;
+    }
+}

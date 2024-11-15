@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wardencraft</title>
+    <link rel="stylesheet" href="styleIndex.css">
+    <link rel="stylesheet" href="stylePassive.css">
+    <link rel="stylesheet" href="styleAll.css">
+    <link rel="stylesheet" href="styleMobs.css">
+    <link rel="stylesheet" href="stylePassiveExamples.css">
+    <link rel="stylesheet" href="styleVillagers.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@676&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo.png" alt="Logo do site" onclick="">
+            </a>
+        </div>
+        <div class="nome">
+            <a href="index.html">WARDENCRAFT</a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mobs.html">Mobs</a></li>
+                <li><a href="villagers.html">Villagers</a></li>
+            </ul>
+        </div>
+        <div class="burguer" onclick="opennav()">
+            &#9776;
+        </div>
+    </nav>
+    <main>
+        <div class="vazio2"></div>
+        <div class="openmenu" id="links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mobs.html">Mobs</a></li>
+                <li><a href="villagers.html">Villagers</a></li>
+            </ul>
+        </div>
+        <div class="vazio1"></div>
+        <div class="title-villagers">
+            <h1>VILLAGER BEHAVIORS</h1>
+        </div>
+        <div class="villagers">
+            <div class="def-villager">
+                <h1>Picking up items:</h1>
+                <p>Villagers have eight hidden inventory slots, which start empty whenever the villager is spawned.
+                    Villagers do not intentionally seek out items to pick up, but they do collect any bread, carrots,
+                    potatoes, wheat, wheat seeds, beetroot, beetroot seeds, torchflower seeds, pitcher pods, and bone
+                    meal within range.</p>
+            </div>
+        </div>
+        <div class="villagers">
+            <div class="def-villager">
+                <h1>Breeding villagers</h1>
+                <p>During a breeding attempt two villagers will look at each other and heart particles will appear
+                    around each of them. An attempt succeeds if an unclaimed bed can be reached within a 48 block radius
+                    of the breeding villagers. If successful, a baby villager will be created, 12 food units from each
+                    of the breeding villager's inventories will be consumed, and they must wait a 5 minute cooldown
+                    before attempting to breed again.</p>
+            </div>
+            <div class="img-villager">
+                <img src="breeding.png" alt="Villagers breeding image">
+            </div>
+        </div>
+        <div class="villagers">
+            <div class="def-villager">
+                <h1>Lightning hits villagers</h1>
+                <p>When lightning strikes within 3–4 blocks of a villager, the villager is replaced by a witch that
+                    can't despawn. Even a baby villager that is struck by lightning is turned into a two-block-tall
+                    witch. This can be a problem if it hits a
+                    <a href="villagerFarms.html">farm</a>
+                    focused on using villagers.
+                </p>
+            </div>
+            <div class="img-villager">
+                <img src="witch.png" alt="Witch image">
+            </div>
+        </div>
+        <div class="choose">
+            <h1>Click the option to know more about:</h1>
+        </div>
+        <div class="options">
+            <div class="option">
+                <a href="villagerBehaviors.html">Behaviors</a>
+            </div>
+            <div class="option">
+                <a href="villagerProfessions.html">Professions</a>
+            </div>
+            <div class="option">
+                <a href="villagerFarms.html">Farms</a>
+            </div>
+            <div class="option">
+                <a href="villagerTrading">Trading</a>
+            </div>
+        </div>
+        <div class="back">
+            <a href="villagers.html">Go to previus page</a>
+        </div>
+    </main>
+    <footer>
+        <div class="abus">
+            <div class="abush1">
+                <p>About Us</p>
+            </div>
+            <div class="abusp">
+                <p>This website was made by Theo Duva Rapoport, a student from ETESP. This project was made
+                    following the purpose of using everything learned throughout the year in a single website,
+                    completing the first year of high school.</p>
+            </div>
+            <div class="maps">
+                <p>Av. Tiradentes, 615 - Luz, São Paulo - SP, 01101-010 | Contact us: theorapoport@gmail.com</p>
+            </div>
+            <div class="maps1">
+                <p>Av. Tiradentes, 615 - Luz, São Paulo - SP, 01101-010</p>
+            </div>
+            <div class="maps2">
+                <p>Contact us: theorapoport@gmail.com</p>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="javaScript.js"></script>
+</body>
+
+</html>

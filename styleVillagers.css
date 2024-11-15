@@ -1,0 +1,156 @@
+.title-villagers{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: min-content;
+    background-color: rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    margin-bottom: 300px;
+    padding: 0px 10px 0px 10px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.choose{
+    font-size: 16px;
+    width: max-content;
+    height: max-content;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.07);
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 20%;
+    transition: 1s;
+    text-align: justify;
+    margin-right: 0px;
+    margin-bottom: 100px;
+}
+
+.choose:hover{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.options{
+    display: flex;
+    width: 1000px;
+    height: max-content;
+    margin-bottom: 200px;
+}
+
+.option{
+    background-color: rgba(0, 0, 0, 0.07);
+    width: 230px;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.option a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 50px 15px 50px;
+}
+
+.option:hover{
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.professions{
+    width: min-content;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.07);
+    padding: 25px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    color: white;
+    flex-direction: column;
+}
+
+.professions h1{
+    padding-bottom: 3px;
+}
+
+.professions a{
+    color: purple;
+}
+
+.img-from{
+    padding-top: 3px;
+    color: rgb(37, 37, 37);
+    font-family: arial;
+}
+
+.professions img{
+    border: solid 6px rgba(14, 58, 58, 0.6);
+    width: 850px;
+    transition: 1s;
+}
+
+.professions img:hover{
+    width: 900px;
+}
+
+.mobile-passive-img{
+    display: none;
+}
+
+@media screen and (max-width: 460px){
+    footer{
+        width: 100%;
+    }
+
+    .def-mobs{
+        width: 90%;
+        margin-left: 5%;
+        font-size: 18px;
+        box-sizing: border-box;
+    }
+
+    .options{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .option{
+        margin-block: 15px;
+    }
+
+    .choose{
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+        box-sizing: border-box;
+    }
+
+    .title-villagers{
+        width: 90%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .professions{
+        width: 95%;
+        box-sizing: border-box;
+    }
+
+    .professions img{
+        width: 90%;
+    }
+
+    .professions img:hover{
+        width: 90%;
+    }
+
+    .professions h1{
+        font-size: 30px;
+    }
+}

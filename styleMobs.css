@@ -1,0 +1,94 @@
+.title-mobs{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: min-content;
+    background-color: rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    margin-bottom: 300px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+}
+
+.def-mobs{
+    font-size: 16px;
+    width: max-content;
+    width: 500px;
+    height: max-content;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.07);
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 20%;
+    transition: 1s;
+    margin-bottom: 100px;
+    text-align: justify;
+}
+
+.def-mobs:hover{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 630px;
+}
+
+.all-types{
+    display: flex;
+    width: 1000px;
+    height: max-content;
+    margin-bottom: 200px;
+}
+
+.mob-types{
+    background-color: rgba(0, 0, 0, 0.07);
+    padding: 15px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.mob-types a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mob-types img{
+    width: 150px;
+    border-radius: 4px;
+}
+
+.mob-types:hover{
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 460px){
+    footer{
+        width: 100%;
+    }
+
+    .def-mobs{
+        width: 90%;
+        margin-left: 5%;
+        font-size: 18px;
+        box-sizing: border-box;
+    }
+
+    .all-types{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .mob-types{
+        margin-block: 15px;
+    }
+
+    .title-mobs{
+        font-size: 50px;
+    }
+}
