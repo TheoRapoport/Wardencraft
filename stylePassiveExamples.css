@@ -29,6 +29,10 @@
     margin-right: 0px;
 }
 
+.def-villager h1{
+    text-align: left;
+}
+
 .def-villager:hover{
     font-size: 20px;
     background-color: rgba(0, 0, 0, 0.4);
@@ -109,5 +113,10 @@
 
     .img-villager{
         margin-inline: 5px;
+    }
+
+    .vid-villager{
+        width: 90%;
+        margin-left: 5%;
     }
 }

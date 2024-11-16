@@ -102,6 +102,87 @@
     display: none;
 }
 
+.all-farms{
+    display: flex;
+    width: 1000px;
+    height: max-content;
+    margin-bottom: 200px;
+}
+
+.farm-type{
+    background-color: rgba(0, 0, 0, 0.07);
+    padding: 15px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.farm-type a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.farm-type a img{
+    width: 150px;
+    border-radius: 4px;
+}
+
+.farm-types img{
+    width: 150px;
+    border-radius: 4px;
+}
+
+.farm-type:hover{
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.option-piglins{
+    background-color: rgba(0, 0, 0, 0.07);
+    width: 300px;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.option-piglins a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 50px 15px 50px;
+}
+
+.option-piglins:hover{
+    width: 340px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.img-bastion img{
+    width: 340px;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.07);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.img-bastion img:hover{
+    width: 360px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.img-bastion{
+    margin-left: 130px;
+    display: flex;
+}
+
 @media screen and (max-width: 460px){
     footer{
         width: 100%;
@@ -118,10 +199,7 @@
         flex-direction: column;
         width: 100%;
         margin-bottom: 100px;
-    }
-
-    .option{
-        margin-block: 15px;
+        gap: 30px;
     }
 
     .choose{
@@ -134,7 +212,7 @@
     .title-villagers{
         width: 90%;
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .professions{
@@ -151,6 +229,18 @@
     }
 
     .professions h1{
-        font-size: 30px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .all-farms{
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .img-bastion{
+        width: 90%;
+        margin-left: 5%;
     }
 }
