@@ -68,7 +68,7 @@
 }
 
 .back{
-    font-size: 18px;
+    font-size: 20px;
     width: max-content;
     margin-bottom: 50px;
     transition: 1s;
@@ -84,7 +84,7 @@
 }
 
 .back:hover{
-    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 @media screen and (max-width: 800px){
