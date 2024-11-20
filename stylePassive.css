@@ -1,5 +1,5 @@
 .title-passive{
-    font-size: 60px;
+    font-size: clamp(1.5em, 1em + 3vw, 7em);
     display: flex;
     align-items: center;
     color: white;
@@ -13,24 +13,19 @@
 }
 
 .def-passive{
-    font-size: 16px;
-    width: max-content;
-    width: 500px;
+    font-size: clamp(15px, 10px + 1vw, 20px);
+    width: max(400px, 50vw);
     height: max-content;
     color: white;
     background-color: rgba(0, 0, 0, 0.07);
     padding: 15px;
     border-radius: 10px;
-    margin-left: 20%;
-    transition: 1s;
     margin-bottom: 100px;
     text-align: justify;
 }
 
 .def-passive:hover{
-    font-size: 20px;
     background-color: rgba(0, 0, 0, 0.4);
-    width: 630px;
 }
 
 .passive-img{
@@ -39,11 +34,13 @@
     align-items: center;
     margin-bottom: 100px;
     background-color: rgba(0, 0, 0, 0.07);
-    padding: 25px;
+    padding: 20px;
     border-radius: 10px;
     flex-wrap: wrap;
     color: white;
     flex-direction: column;
+    box-sizing: border-box;
+    font-size: clamp(15px, 10px + 1vw, 20px);
 }
 
 .passive-img h1{
@@ -58,16 +55,12 @@
     padding-top: 3px;
     color: rgb(37, 37, 37);
     font-family: arial;
+    font-size: clamp(10px, 10px + 1vw, 15px);
 }
 
 .passive-img img{
     border: solid 6px rgba(14, 58, 58, 0.6);
-    width: 1000px;
-    transition: 1s;
-}
-
-.passive-img img:hover{
-    width: 1100px;
+    width: min(10000px, 80vw);
 }
 
 .mobile-passive-img{
@@ -92,6 +85,16 @@
 
 .back:hover{
     font-size: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .def-mobs{
+        margin-inline: auto;
+    }
+
+    .passive-img{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 460px){

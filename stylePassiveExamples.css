@@ -1,5 +1,5 @@
 .title-passive-examples{
-    font-size: 60px;
+    font-size: clamp(1.3em, 1em + 3vw, 6em);
     display: flex;
     align-items: center;
     color: white;
@@ -12,31 +12,27 @@
 }
 
 .title-passive-examples h2{
-    font-size: 60px;
+    font-size: clamp(1.em, 1em + 3vw, 5em);
 }
 
 .def-villager{
-    font-size: 16px;
-    width: 500px;
+    font-size: clamp(15px, 10px + 1vw, 20px);
+    width: max(400px, 50vw);
     height: max-content;
     color: white;
     background-color: rgba(0, 0, 0, 0.07);
     padding: 15px;
     border-radius: 10px;
-    margin-left: 20%;
-    transition: 1s;
     text-align: justify;
-    margin-right: 0px;
+    transition: 1s;
+}
+
+.def-villager:hover{
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .def-villager h1{
     text-align: left;
-}
-
-.def-villager:hover{
-    font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 630px;
 }
 
 .def-villager a{
@@ -45,25 +41,19 @@
 
 .img-villager img{
     width: 150px;
-    transition: 1s;
     background-color: rgba(0, 0, 0, 0.07);
     padding: 15px;
     border-radius: 10px;
 }
 
-.img-villager img:hover{
-    width: 170px;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
 .img-villager{
     width: 170px;
-    margin-left: 130px;
+    margin-left: min(130px, 5vw);
     display: flex;
 }
 
 
-.villagers{
+.villagers, .villagers-vid, .villagers-bastion{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -74,7 +64,7 @@
 
 .vid-villager{
     width: 300px;
-    margin-left: 130px;
+    margin-left: min(130px, 5vw);
     display: flex;
 }
 
@@ -82,6 +72,33 @@
     background-color: rgba(0, 0, 0, 0.07);
     padding: 15px;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 900px){
+    .vid-villager{
+        margin-left: auto;
+    }
+
+    .villagers-vid{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .villagers{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .img-villager{
+        margin-left: auto;
+    }
+
+    .title-passive-examples{
+        width: min-content;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 460px) {
