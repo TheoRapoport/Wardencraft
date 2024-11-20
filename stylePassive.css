@@ -68,7 +68,6 @@
 }
 
 .back{
-    font-size: 20px;
     width: max-content;
     margin-bottom: 50px;
     transition: 1s;
@@ -78,12 +77,14 @@
     text-decoration: none;
     color: white;
     padding-inline: 30px;
+    font-size: 20px;
     padding-block: 15px;
     background-color: rgba(0, 0, 0, 0.07);
     border-radius: 10px;
+    transition: 1s;
 }
 
-.back:hover{
+.back a:hover{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
